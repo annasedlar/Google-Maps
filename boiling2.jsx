@@ -25,16 +25,13 @@ var TemperatureInput = React.createClass({
 		return(
 			<div>
 				<label>Enter temperature in question in {this.props.tUnits}</label>
-				<input placeholder="Temp" value={this.state.valueå} onChange={this.handleChange} />			
+				<input placeholder="Temp" value={this.state.value} onChange={this.handleChange} />			
 			</div>
 		)
 	}
-})
+});
 
 var Calculator = React.createClass({
-
-
-	
 	render: function(){
 		// var userEnteredTemp = this.state.value;
 		// if(userEnteredTemp >= 100){
@@ -42,7 +39,6 @@ var Calculator = React.createClass({
 		// }else{
 		// 	var text = "Would not voil"
 		// }
-
 		return(
 			<div>
 				{ /* <p>{text}</p> */}
@@ -53,7 +49,6 @@ var Calculator = React.createClass({
 		)
 	}
 })
-
 
 ReactDOM.render(
 	<Calculator />,

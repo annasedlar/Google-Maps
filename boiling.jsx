@@ -73,13 +73,13 @@ var Calculator = React.createClass({
 	handleCelciusChange: function(value){
 		this.setState({
 			scale: 'c',
-			value
+			value: value
 		})
 	},
 	handleFahrenheitChange: function(value){
 		this.setState({
 			scale: 'f',
-			value
+			value: value
 		})
 	},
 
